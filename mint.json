@@ -1,0 +1,83 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Zaibot",
+  "logo": {
+    "dark": "/logo/dark.png",
+    "light": "/logo/light.svg"
+  },
+
+
+"modeToggle": {
+  "default": "dark",
+  "isHidden": true
+},
+
+
+  "favicon": "/images/small-md.svg",
+  "colors": {
+    "primary": "#03ffff",
+    "light": "#03ffff",
+    "dark": "#03ffff",
+    "anchors": {
+      "from": "#000000",
+      "to": "#03ffff"
+    }
+  },
+
+  
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:team@zaibot.io"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Dashboard",
+    "url": "https://zaibot.io/"
+  },
+  "anchors": [
+    {
+      "name": "X (Twitter)",
+      "icon": "x",
+      "url": "https://x.com/zaibotio/"
+    },
+    {
+      "name": "Community",
+      "icon": "telegram",
+      "url": "https://t.me/zaibotpublic"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "introduction"
+      ]
+    },
+    {
+      "group": "Explore",
+      "pages": [
+        "explore/revenue",
+        "explore/tracking",
+        "explore/trending",
+        "explore/referrals",
+        "explore/leaderboard",
+        "explore/staking",
+        "explore/share",
+        "explore/group"
+      ]
+    },
+    {
+      "group": "Info",
+      "pages": [
+        "info/FAQ",
+        "info/social"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "website": "https://www.zaibot.io/",
+    "telegram": "https://t.me/zaibotpublic",
+    "twitter": "https://x.com/zaibotio/"
+  }
+}
